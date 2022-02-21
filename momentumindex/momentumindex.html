@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../momentumscript.js" defer></script>
+  <script src="../time.js" defer></script>
+  <script src="../todo.js" defer></script>
+  <script src="../background.js" defer></script>
+  <script src="../randomquote.js" defer></script>
+  <!--<script src="../mainobj.js" defer></script>-->
+  <link rel="stylesheet" href="momentumindex.css">
+  <title>Document</title>
+</head>
+<body>
+
+<div class="topquote">
+  <h3></h3>
+</div>
+
+  <div class="whole">
+    
+    <!--Left section of page-->
+    <section class="left">
+      
+      <!--Tells Time-->
+      <div class="time">
+      <h1>00:00</h1>
+      </div>
+  
+      <!--Greeting-->
+      <div id="greet">
+      <h2 data-username></h2>
+      </div>
+
+    </section>
+
+
+      <!--Right section of page-->
+      <section class="right">
+      <div class="list">
+      <form class="js-toDoForm">
+        <label for="writeList">List For Today</label>
+        <input type="text" placeholder="Write what to do" id="writeList" />
+      </form>
+
+      <ul class="js-toDoList"></ul>
+    </div>
+
+    <span class="js-weather"></span>
+  </section>
+</div>
+  <div id="mainobj"></div>>
+  <div id="randquote"></div>
+</body>
+</html>

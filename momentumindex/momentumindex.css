@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #60a3bc;
+}
+
+.topquote{
+  text-align: center;
+  font-family: "Noto Serif", serif;
+  color: black;
+}
+
+.topquote h3{
+  background-color: rgba(248, 247, 247, 0.267);
+}
+
+.whole {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  padding: 50px 100px 100px 100px ;
+}
+
+.left {
+  width: 30%;
+  font-family: "Noto Serif", serif;
+  background-color: rgba(248, 247, 247, 0.452);
+  text-align: center;
+}
+
+.time h1 {
+  font-size: 120px;
+  color: black;
+}
+
+#greet{
+  font-size: 20px;
+  color: black;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+}
+
+input:focus,
+button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.greetings {
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  color: #fff;
+}
+
+.right {
+  width: 30%;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+}
+
+.list {
+  display: inline-block;
+  width: 80%;
+  height: 50%;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgba(248, 247, 247, 0.452);
+}
+
+.js-toDoForm label {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: "Noto Serif", serif;
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  color: #333e47;
+}
+
+.js-toDoForm input {
+  width: 50%;
+  height: 36px;
+  padding: 0 12px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #f6f8fa;
+  color: #333e47;
+}
+
+.js-toDoForm input:focus {
+  border: 1px solid #2860e1;
+}
+
+.js-toDoList li {
+  margin-bottom: 10px;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.js-toDoList button {
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2860e1;
+  cursor: pointer;
+}
+
+.js-toDoList button:focus {
+  font-weight: 700;
+  color: #2860e1;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  .list {
+    width: 100%;
+  }
+
+  .js-toDoForm input {
+    width: 70%;
+  }
+
+  .js-toDoList li {
+    font-size: 15px;
+  }
+
+  .js-toDoList button {
+    font-size: 12px;
+  }
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 500ms linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

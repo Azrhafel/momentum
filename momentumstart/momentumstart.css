@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("https://cdn.wallpapersafari.com/19/3/mWPBba.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vh;
+  height: 100vh;
+}
+
+form {
+  text-align: center;
+}
+
+#name {
+  width: 80vh;
+  height: 40vh;
+  margin:  35vh 25vh 25vh 65vh;
+}
+
+label{
+  font-size: 10vh;
+  color: white;
+  padding-top: 300px;
+}
+
+#username{
+  font-size: 6vh;
+  margin-top: 20px;
+}
