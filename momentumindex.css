@@ -16,7 +16,7 @@ body {
 }
 
 .topquote h2 {
-  background-color: rgba(248, 247, 247, 0.267);
+  background-color: rgba(248, 247, 247, 0.2);
   font-size: 30px;
 }
 
@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: rgba(248, 247, 247, 0.267);
+  background-color: rgba(248, 247, 247, 0.2);
 }
 
 #lblobj {
@@ -36,11 +36,12 @@ body {
 
 #writeGoal {
   width: 50vh;
+  height: 30px;
   align-self: center;
 }
 
 .maingoal {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   font-style: italic;
   color: black;
@@ -58,7 +59,7 @@ body {
 .left {
   width: 30%;
   font-family: "Noto Serif", serif;
-  background-color: rgba(248, 247, 247, 0.452);
+  background-color: rgba(248, 247, 247, 0.2);
   text-align: center;
   border-radius: 10%;
 }
@@ -102,7 +103,7 @@ button:focus {
   height: 50%;
   padding: 30px;
   border-radius: 5px;
-  background-color: rgba(248, 247, 247, 0.452);
+  background-color: rgba(248, 247, 247, 0.2);
   border-radius: 10%;
 }
 

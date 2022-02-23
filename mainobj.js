@@ -33,7 +33,6 @@ function loadGoal() {
     askForGoal();
   } else {
     displayGoal(currentObjective);
-    input.remove()
   }
 }
 
