@@ -8,15 +8,42 @@ body {
   background-color: #60a3bc;
 }
 
-.topquote{
+.topquote {
   text-align: center;
   font-family: "Noto Serif", serif;
   color: black;
+  font-style: italic;
 }
 
-.topquote h2{
+.topquote h2 {
   background-color: rgba(248, 247, 247, 0.267);
   font-size: 30px;
+}
+
+.mainobj {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(248, 247, 247, 0.267);
+}
+
+#lblobj {
+  font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 20px;
+  font-style: italic;
+}
+
+#writeGoal {
+  width: 50vh;
+  align-self: center;
+}
+
+.maingoal {
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  color: black;
 }
 
 .whole {
@@ -24,8 +51,8 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 80vh;
-  padding: 50px 100px 100px 100px ;
+  height: 100%;
+  padding: 50px 100px 50px 100px;
 }
 
 .left {
@@ -33,6 +60,7 @@ body {
   font-family: "Noto Serif", serif;
   background-color: rgba(248, 247, 247, 0.452);
   text-align: center;
+  border-radius: 10%;
 }
 
 .time h1 {
@@ -40,9 +68,10 @@ body {
   color: black;
 }
 
-#greet{
+#greet {
   font-size: 20px;
   color: black;
+  font-style: italic;
 }
 
 ul,
@@ -61,13 +90,6 @@ button:focus {
   outline: none;
 }
 
-.greetings {
-  font-size: 40px;
-  font-weight: 400;
-  font-style: italic;
-  color: #fff;
-}
-
 .right {
   width: 30%;
   font-family: "Nunito Sans", sans-serif;
@@ -81,6 +103,7 @@ button:focus {
   padding: 30px;
   border-radius: 5px;
   background-color: rgba(248, 247, 247, 0.452);
+  border-radius: 10%;
 }
 
 .js-toDoForm label {
@@ -149,11 +172,6 @@ button:focus {
   }
 }
 
-.form,
-.greetings {
-  display: none;
-}
-
 .showing {
   display: block;
 }
@@ -176,4 +194,3 @@ button:focus {
     opacity: 1;
   }
 }
-

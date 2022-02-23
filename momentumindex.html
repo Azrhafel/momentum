@@ -9,7 +9,7 @@
     <script src="todo.js" defer></script>
     <script src="background.js" defer></script>
     <script src="randomquote.js" defer></script>
-    <!--<script src="../mainobj.js" defer></script>-->
+    <script src="mainobj.js" defer></script>
     <link rel="stylesheet" href="momentumindex.css" />
     <link
       rel="icon"
@@ -22,7 +22,18 @@
     <div class="topquote">
       <h2></h2>
     </div>
-
+    <form class="mainobj">
+      <label for="objective" id="lblobj"
+        >What's your main goal for today?</label
+      >
+      <input
+        type="text"
+        placeholder="What are you aiming for today?"
+        id="writeGoal"
+      />
+      <h2 class="js-maingoal maingoal"></h2>
+    </form>
+    
     <div class="whole">
       <!--Left section of page-->
       <section class="left">
@@ -47,12 +58,9 @@
 
           <ul class="js-toDoList"></ul>
         </div>
-
-        <span class="js-weather"></span>
       </section>
     </div>
-    <div id="mainobj"></div>
-    >
-    <div id="randquote"></div>
+
+    <div id="addedquote"></div>
   </body>
 </html>
