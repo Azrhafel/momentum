@@ -17,12 +17,10 @@ function handleSubmit(event) {
 }
 
 function askForGoal() {
-  form.classList.add(SHOWING_CN);
   form.addEventListener("submit", handleSubmit);
 }
 
 function displayGoal(text) {
-  form.classList.remove(SHOWING_CN);
   objective.classList.add(SHOWING_CN);
   objective.innerText = `Today you're going to ${text}!`;
 }
